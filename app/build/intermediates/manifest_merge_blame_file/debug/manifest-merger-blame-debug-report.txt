@@ -1,0 +1,274 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.micode.notes"
+4    android:versionCode="1"
+5    android:versionName="0.1" >
+6
+7    <uses-sdk
+7-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:8:5-44
+8        android:minSdkVersion="16"
+8-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:8:15-41
+9        android:targetSdkVersion="23" />
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:10:5-81
+11-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:10:22-78
+12    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+12-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:11:5-88
+12-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:11:22-85
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:12:5-67
+13-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:12:22-64
+14    <uses-permission android:name="android.permission.READ_CONTACTS" />
+14-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:13:5-72
+14-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:13:22-69
+15    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+15-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:14:5-74
+15-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:14:22-71
+16    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+16-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:15:5-80
+16-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:15:22-77
+17    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+17-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:16:5-71
+17-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:16:22-68
+18    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+18-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:17:5-74
+18-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:17:22-71
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:18:5-81
+19-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:18:22-78
+20
+21    <application
+21-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:20:5-136:19
+22        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+22-->[com.android.support:support-compat:28.0.0] C:\Users\lenvov\.gradle\caches\transforms-3\fdedc24e9806d883675f1dcdcefa8b96\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+23        android:debuggable="true"
+24        android:extractNativeLibs="true"
+25        android:icon="@drawable/icon_app"
+25-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:21:9-42
+26        android:label="@string/app_name"
+26-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:22:9-41
+27        android:testOnly="true" >
+28        <activity
+28-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:23:9-27:54
+29            android:name="net.micode.notes.ui.showResultActivity"
+29-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:24:13-50
+30            android:exported="false"
+30-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:25:13-37
+31            android:label="@string/title_activity_show_result"
+31-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:26:13-63
+32            android:theme="@style/Theme.AppCompat" />
+32-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:27:13-51
+33        <activity
+33-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:28:9-35:55
+34            android:name="net.micode.notes.ui.NotesListActivity"
+34-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:29:13-49
+35            android:configChanges="keyboardHidden|orientation|screenSize"
+35-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:30:13-74
+36            android:label="@string/app_name"
+36-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:31:13-45
+37            android:launchMode="singleTop"
+37-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:32:13-43
+38            android:theme="@style/NoteTheme"
+38-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:33:13-45
+39            android:uiOptions="splitActionBarWhenNarrow"
+39-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:34:13-57
+40            android:windowSoftInputMode="adjustPan" />
+40-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:35:13-52
+41        <activity
+41-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:36:9-45:20
+42            android:name="net.micode.notes.ui.SplashActivity"
+42-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:37:13-46
+43            android:configChanges="orientation|keyboardHidden|screenSize"
+43-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:38:13-74
+44            android:theme="@style/Theme.Buptnotemaster.Fullscreen" >
+44-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:39:13-67
+45            <intent-filter>
+45-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:40:13-44:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:41:17-69
+46-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:41:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:43:17-77
+48-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:43:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:46:9-76:20
+52            android:name="net.micode.notes.ui.NoteEditActivity"
+52-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:47:13-48
+53            android:configChanges="keyboardHidden|orientation|screenSize"
+53-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:48:13-74
+54            android:launchMode="singleTop"
+54-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:49:13-43
+55            android:theme="@style/NoteTheme" >
+55-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:50:13-45
+56            <intent-filter>
+56-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:51:13-58:29
+57                <action android:name="android.intent.action.VIEW" />
+57-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:52:17-69
+57-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:52:25-66
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:54:17-76
+59-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:54:27-73
+60
+61                <data android:mimeType="vnd.android.cursor.item/text_note" />
+61-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:56:17-78
+61-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:56:23-75
+62                <data android:mimeType="vnd.android.cursor.item/call_note" />
+62-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:56:17-78
+62-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:56:23-75
+63            </intent-filter>
+64            <intent-filter>
+64-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:59:13-66:29
+65                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+65-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:60:17-79
+65-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:60:25-76
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:54:17-76
+67-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:54:27-73
+68
+69                <data android:mimeType="vnd.android.cursor.item/text_note" />
+69-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:56:17-78
+69-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:56:23-75
+70                <data android:mimeType="vnd.android.cursor.item/call_note" />
+70-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:56:17-78
+70-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:56:23-75
+71            </intent-filter>
+72            <intent-filter>
+72-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:67:13-71:29
+73                <action android:name="android.intent.action.SEARCH" />
+73-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:68:17-71
+73-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:68:25-68
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:54:17-76
+75-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:54:27-73
+76            </intent-filter>
+77
+78            <meta-data
+78-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:73:13-75:54
+79                android:name="android.app.searchable"
+79-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:74:17-54
+80                android:resource="@xml/searchable" />
+80-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:75:17-51
+81        </activity>
+82
+83        <provider
+83-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:78:9-81:43
+84            android:name="net.micode.notes.data.NotesProvider"
+84-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:79:13-47
+85            android:authorities="micode_notes"
+85-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:80:13-47
+86            android:multiprocess="true" />
+86-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:81:13-40
+87
+88        <receiver
+88-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:83:9-95:20
+89            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
+89-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:84:13-57
+90            android:label="@string/app_widget2x2" >
+90-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:85:13-50
+91            <intent-filter>
+91-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:86:13-90:29
+92                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+92-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:87:17-84
+92-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:87:25-81
+93                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+93-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:88:17-85
+93-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:88:25-82
+94                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+94-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:89:17-85
+94-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:89:25-82
+95            </intent-filter>
+96
+97            <meta-data
+97-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:92:13-94:58
+98                android:name="android.appwidget.provider"
+98-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:93:17-58
+99                android:resource="@xml/widget_2x_info" />
+99-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:94:17-55
+100        </receiver>
+101        <receiver
+101-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:96:9-108:20
+102            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
+102-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:97:13-57
+103            android:label="@string/app_widget4x4" >
+103-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:98:13-50
+104            <intent-filter>
+104-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:86:13-90:29
+105                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+105-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:87:17-84
+105-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:87:25-81
+106                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+106-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:88:17-85
+106-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:88:25-82
+107                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+107-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:89:17-85
+107-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:89:25-82
+108            </intent-filter>
+109
+110            <meta-data
+110-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:92:13-94:58
+111                android:name="android.appwidget.provider"
+111-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:93:17-58
+112                android:resource="@xml/widget_4x_info" />
+112-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:94:17-55
+113        </receiver>
+114        <receiver android:name="net.micode.notes.ui.AlarmInitReceiver" >
+114-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:109:9-113:20
+114-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:109:19-55
+115            <intent-filter>
+115-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:110:13-112:29
+116                <action android:name="android.intent.action.BOOT_COMPLETED" />
+116-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:111:17-79
+116-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:111:25-76
+117            </intent-filter>
+118        </receiver>
+119        <receiver
+119-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:114:9-116:41
+120            android:name="net.micode.notes.ui.AlarmReceiver"
+120-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:115:13-45
+121            android:process=":remote" />
+121-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:116:13-38
+122
+123        <activity
+123-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:118:9-122:78
+124            android:name="net.micode.notes.ui.AlarmAlertActivity"
+124-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:119:13-50
+125            android:label="@string/app_name"
+125-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:120:13-45
+126            android:launchMode="singleInstance"
+126-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:121:13-48
+127            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" />
+127-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:122:13-75
+128        <activity
+128-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:123:9-127:63
+129            android:name="net.micode.notes.ui.NotesPreferenceActivity"
+129-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:124:13-55
+130            android:label="@string/preferences_title"
+130-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:125:13-54
+131            android:launchMode="singleTop"
+131-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:126:13-43
+132            android:theme="@android:style/Theme.Holo.Light" />
+132-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:127:13-60
+133
+134        <service
+134-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:129:9-131:40
+135            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
+135-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:130:13-58
+136            android:exported="false" />
+136-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:131:13-37
+137
+138        <meta-data
+138-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:133:9-135:52
+139            android:name="android.app.default_searchable"
+139-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:134:13-58
+140            android:value=".ui.NoteEditActivity" />
+140-->C:\Users\lenvov\Desktop\bupt-note-master\app\src\main\AndroidManifest.xml:135:13-49
+141    </application>
+142
+143</manifest>

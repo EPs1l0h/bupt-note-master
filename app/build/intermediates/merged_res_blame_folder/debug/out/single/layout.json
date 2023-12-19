@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\widget_4x.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\widget_4x.xml"
+    },
+    {
+        "merged": "net.micode.notes.app-mergeDebugResources-15:/layout/note_list.xml",
+        "source": "net.micode.notes.app-main-18:/layout/note_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\settings_header.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\settings_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\add_account_text.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\add_account_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\note_list.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\note_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\account_dialog_title.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\account_dialog_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\widget_2x.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\widget_2x.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\activity_show_result.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\activity_show_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\note_list_footer.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\note_list_footer.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\activity_list_background.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\activity_list_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\note_edit.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\note_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\note_item.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\note_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\dialog_edit_text.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\dialog_edit_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\folder_list_item.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\folder_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\note_edit_list_item.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\note_edit_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\datetime_picker.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\datetime_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\fragment_notifications.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\note_list_dropdown_menu.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\note_list_dropdown_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-mergeDebugResources-15:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\lenvov\\.gradle\\daemon\\8.0\\net.micode.notes.app-main-18:\\layout\\fragment_home.xml"
+    }
+]
